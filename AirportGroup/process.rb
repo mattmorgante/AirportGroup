@@ -1,0 +1,57 @@
+# Create flights 
+# 1. Create flights with flights number and airline 
+
+def new_flight 
+end 
+
+# Create passengers 
+# 1. Add passport data 
+
+def new_passenger 
+  # include passport data 
+end 
+
+# Buy tickets 
+# 1. CRUD tickets with ticket_id and all passenger data and the flight data 
+
+def buy_ticket 
+
+end 
+
+# Check-In  
+
+class Ticket 
+end
+
+class Flight 
+end 
+
+def checkin 
+  # verify ticket and flight match 
+  
+  # grab ticket 
+  # write the ticket data onto the database "Checked_In"
+
+  # check luggage 
+  # write the luggage onto the database "Checked_In" 
+
+  # assign seat and gate 
+  # write seat and gate data onto "Checked_in"
+
+  # Run flight_go  
+
+end 
+# 1. Grab ticket data 
+#   (which includes passenger data)
+# 2. check passport 
+# 3. assign seat and gate 
+# 4. Run luggage process 
+#   a. check totals number of items 
+#   b. check weight 
+# 5. If all passes, then add all of that data into checked_in 
+# 6. Put checked_in data into flight. Includes: 
+#   a. passenger data
+#   b. flight data
+#   c. ticket data
+#   d. luggage data 
+
