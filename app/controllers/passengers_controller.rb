@@ -15,6 +15,7 @@ class PassengersController < ApplicationController
   # GET /passengers/new
   def new
     @passenger = Passenger.new
+    @flights = Flight.new
   end
 
   # GET /passengers/1/edit
